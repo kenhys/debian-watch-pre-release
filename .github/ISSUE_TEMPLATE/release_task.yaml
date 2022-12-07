@@ -8,7 +8,7 @@ body:
       value: |
         This is a issue for new release x.y.z
   - type: checkboxes
-    id: create-release-notes
+    id: create-new-tag
     attributes:
       label: Create a new tag
       description: Tag a new version for planned release
