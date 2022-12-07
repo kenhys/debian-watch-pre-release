@@ -32,7 +32,9 @@ body:
     id: test-assets
     attributes:
       label: Test assets for release
-      description: Test prebuilt binary files whether it is production ready. Described issues in release note should be tested.
+      description: |
+        Test prebuilt binary files whether it is production ready.
+        Described issues in release note should be tested.
     validations:
       required: false
   - type: checkboxes
